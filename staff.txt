@@ -1,0 +1,9 @@
+username: dyn4casie
+password: admin
+email: dyn4casie@gmail.com
+full name: Doyin Adetunji
+
+username: dexter
+password: 123456
+email: dexter@gmail.com
+full name: dexter james
