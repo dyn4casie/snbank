@@ -1,7 +1,7 @@
 # Snbank
 # A basic banking system that stores data using the Ruby File System. 
 # 
-# start the program by running the main.rb file in your terminal or live on [repl.it](https://repl.it/repls/HeartfeltLeanData) if you dont have ruby installed on your system
+# start the program by running the main.rb file in your terminal or live on [Repl.it](https://repl.it/repls/HeartfeltLeanData) for version1 and [bank-v2](https://repl.it/@dyn4casie/snbank-v2)if you dont have ruby installed on your system
 * program is able to validate user login details based on user name and password already given in staff.txt. ![validate password](https://github.com/dyn4casie/snbank/blob/master/images/Screenshot%20(348).png)
 ## 
 * Program is able to log user's session by creating a text document.
