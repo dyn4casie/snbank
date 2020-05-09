@@ -1,13 +1,9 @@
 # Snbank
-# A basic banking system that stores data using the Ruby File System. 
+# Added the following feature:
+- Customer should be able to create a pin (pin should be minimum 4 digits, maximum 6 digits) ![pin](https://github.com/dyn4casie/snbank/tree/bank-v2/images/Screenshot%20(378).png)
+- Customers should be able to login with their account number and pin ![login with acc $pin](https://github.com/dyn4casie/snbank/tree/bank-v2/images/Screenshot%20(379).png)
+- Customer should be able to check account balance ![check acct balance](https://github.com/dyn4casie/snbank/tree/bank-v2/images/Screenshot%20(380).png)
+- Customers should be able to deposit ![deposit](https://github.com/dyn4casie/snbank/tree/bank-v2/images/Screenshot%20(381).png)
+- Customers should be able to withdraw ![withdraw](https://github.com/dyn4casie/snbank/tree/bank-v2/images/Screenshot%20(383).png)
 # 
 # start the program by running the main.rb file in your terminal or live on [Repl.it](https://repl.it/repls/HeartfeltLeanData) for version1 and [bank-v2](https://repl.it/@dyn4casie/snbank-v2)if you dont have ruby installed on your system
-* program is able to validate user login details based on user name and password already given in staff.txt. ![validate password](https://github.com/dyn4casie/snbank/blob/master/images/Screenshot%20(348).png)
-## 
-* Program is able to log user's session by creating a text document.
-## 
-* Program allows user to Create Specific Account type and check Account Balance. ![specify account type](https://github.com/dyn4casie/snbank/blob/master/images/Screenshot%20(350).png)
-## 
-* program allows user to generate random 10 digits account number for account. ![generate account number](https://github.com/dyn4casie/snbank/blob/master/images/Screenshot%20(351).png)
-## 
-* program allows user to check account details using generated account number ![check account details using generated account number](https://github.com/dyn4casie/snbank/blob/master/images/Screenshot%20(352).png)

@@ -119,7 +119,7 @@ def bank()
       deposit_amount = gets.chomp.to_i
       new_balace = customer_txt[account_num_in_db - 4].to_i + deposit_amount
 
-      customer_txt[account_num_in_db - 3] = new_balace
+      customer_txt[account_num_in_db - 4] = new_balace
 
       dbase = File.open("customer.txt", "w")
       customer_txt.each do |item|
@@ -146,7 +146,7 @@ def bank()
     end
     if found
       puts "Your account balance is #{customer_txt[account_num_in_db - 4]}"
-      puts "Enter amount to witdraw \n"
+      puts "Enter amount to withdraw \n"
       withdrawal_amount = gets.chomp.to_i
       new_balace = customer_txt[account_num_in_db - 4].to_i - withdrawal_amount
 
@@ -157,7 +157,7 @@ def bank()
         dbase.puts item
       end
       dbase.close
-      puts "Your account has been debited, your new account balance is #{customer_txt[account_num_in_db - 3]}"
+      puts "Your account has been debited, your new account balance is #{customer_txt[account_num_in_db - 4]}"
     else
       puts "Account number not found, try again"
       bank()
